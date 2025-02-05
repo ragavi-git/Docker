@@ -10,5 +10,5 @@ docker tag test ragavit/docker_jenkins
 docker push ragavit/docker_jenkins
 # Run the container on port 80
 echo "🔥 Running the Docker container on port 80..."
-docker run -d -p 90:80 --name custom-nginx-container ragavit/docker_jenkins
+docker run -d -p 90:80 --name test ragavit/docker_jenkins
      
